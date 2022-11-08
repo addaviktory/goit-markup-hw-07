@@ -1,0 +1,28 @@
+.hero {
+  background-color: var(--background-light-black);
+  padding: 200px 0;
+  text-align: center;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  background-position: center;
+}
+.hero-banner {
+  width: 1600px;
+  height: 600px;
+}
+.container > h1 {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--title-white);
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border: none;
+}
